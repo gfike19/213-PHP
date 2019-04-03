@@ -5,7 +5,7 @@ $sentence = "The quick brown fox jumps over the lazy dog.";
 $wordCount = 1;
 foreach($sentence as $chr) {
     // again, psuedo code doesn't make mention of this but unsure of how to print words otherwise
-    $word = ""
+    $word = "";
     if($chr != " " ){
         $word += $chr;
     }
