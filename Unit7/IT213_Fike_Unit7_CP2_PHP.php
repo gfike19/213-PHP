@@ -9,4 +9,5 @@ function IsEven(){
 		}
 	}
 }
+IsEven();
 ?>
