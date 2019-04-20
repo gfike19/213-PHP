@@ -5,7 +5,7 @@ $avg = 0;
 $msg = "Point is %s";
 
 while($avg != -1) {
-    $avg = echo readline("Enter a grade (-1 to quite): ");
+    $avg = console.log(readline("Enter a grade (-1 to quite): "));
     if ($avg >= 90) {
         str_replace("%s", "4", $msg);
     }
@@ -35,7 +35,7 @@ while($avg != -1) {
     // exit;
 
     if ($avg == -1){
-        echo $msg;
+        console.log($msg);
     }
 }
 
