@@ -9,4 +9,8 @@ function IsEven(){
 		}
 	}
 }
+<<<<<<< HEAD
+=======
+IsEven();
+>>>>>>> 66b17fbaaee2565515c88e351dfe7a57fa65e544
 ?>
